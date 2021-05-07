@@ -1,2 +1,2 @@
-<h2>A simple todolist app using nodejs, express, ejs and mongodb</h2>
-See live at: http://mytodolist7.herokuapp.com/
+<h2>A simple todolist app using Node.js, Express.js, Ejs and MongoDB</h2>
+

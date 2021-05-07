@@ -17,8 +17,12 @@
         </div>
           <ul class="nav navbar-nav navbar-right">
             <li id="home"><a href="/">HOME</a></li>
-            <li id="about"><a href="/about">ABOUT ME</a></li>
-            <li id="contact"><a href="/buymeacofee">BUY-ME-A-COFEE</a></li>
+            <% if(isAuthenticated){ %>
+              <li id="logout"><a href="/logout">Logout</a></li>
+            <% } else { %>
+              <li class="nav-item login" id="login"><a href="/login">Login</a></li>
+              <li class="nav-item register" id="register"><a href="/register">Register</a></li>
+            <% } %>
           </ul>
       </div>
     </nav>
